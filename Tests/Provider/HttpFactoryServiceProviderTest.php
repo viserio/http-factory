@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\HttpFactory\Tests\Providers;
+namespace Viserio\Component\HttpFactory\Tests\Provider;
 
 use Interop\Http\Factory\RequestFactoryInterface;
 use Interop\Http\Factory\ResponseFactoryInterface;
@@ -10,7 +10,7 @@ use Interop\Http\Factory\UploadedFileFactoryInterface;
 use Interop\Http\Factory\UriFactoryInterface;
 use PHPUnit\Framework\TestCase;
 use Viserio\Component\Container\Container;
-use Viserio\Component\HttpFactory\Providers\HttpFactoryServiceProvider;
+use Viserio\Component\HttpFactory\Provider\HttpFactoryServiceProvider;
 use Viserio\Component\HttpFactory\RequestFactory;
 use Viserio\Component\HttpFactory\ResponseFactory;
 use Viserio\Component\HttpFactory\ServerRequestFactory;

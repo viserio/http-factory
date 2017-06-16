@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace Viserio\Component\HttpFactory\Providers;
+namespace Viserio\Component\HttpFactory\Provider;
 
 use Interop\Container\ServiceProvider;
 use Interop\Http\Factory\RequestFactoryInterface;
